@@ -15,6 +15,7 @@ public class add_adress_Test extends BaseTest{
 @Test
 public void addAddress() throws IOException, InterruptedException 
 {
+	
 	Thread.sleep(3000);
 	homePage.getAccountsetting().click();
 	Thread.sleep(3000);

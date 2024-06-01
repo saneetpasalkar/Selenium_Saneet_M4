@@ -63,10 +63,10 @@ reprt.attachReporter(spark);
 public void beforeClass() throws IOException
 {
 System.out.println("BeforeClass");
-String browser=FrameworkConstants_Utility.chromeValue;
-String url=utility.readDataFromPropertyFile("url");
-//String browser=System.getProperty("browser");
-//String url=System.getProperty("url");
+//String browser=FrameworkConstants_Utility.chromeValue;
+//String url=utility.readDataFromPropertyFile("url");
+String browser=System.getProperty("browser");
+String url=System.getProperty("url");
 
 if (browser.contains("chrome")) {
 	driver=new ChromeDriver();

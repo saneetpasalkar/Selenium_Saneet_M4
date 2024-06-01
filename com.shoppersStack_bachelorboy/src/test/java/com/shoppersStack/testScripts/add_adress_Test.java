@@ -22,7 +22,7 @@ public void addAddress() throws IOException, InterruptedException
 	
 	MyProfile_Page myProfile=new MyProfile_Page(driver);
 	Thread.sleep(3000);
-//	myProfile.getMyaddressbtn().click();
+	myProfile.getMyaddressbtn().click();
 	MyAddress_Page addressPage=new MyAddress_Page(driver);
 	Thread.sleep(3000);
 	addressPage.getAddadressbtn().click();
